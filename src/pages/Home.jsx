@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
+import FeaturedRooms from "../components/FeaturedRooms";
+import { RoomConsumer,RoomProvider,RoomContext } from "../context/Context";
 
 const Home = props => {
   return (
@@ -18,6 +20,8 @@ const Home = props => {
         </Banner>
       </Hero>
       <Services />
+      
+      <FeaturedRooms/>
     </>
   );
 };
