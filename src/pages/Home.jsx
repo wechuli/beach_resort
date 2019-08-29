@@ -4,7 +4,8 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
-import { RoomConsumer,RoomProvider,RoomContext } from "../context/Context";
+import { RoomConsumer, RoomProvider, RoomContext } from "../context/Context";
+
 
 const Home = props => {
   return (
@@ -19,9 +20,11 @@ const Home = props => {
           </Link>
         </Banner>
       </Hero>
+
       <Services />
-      
-      <FeaturedRooms/>
+
+      <FeaturedRooms />
+     
     </>
   );
 };
